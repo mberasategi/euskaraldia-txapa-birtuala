@@ -1,0 +1,1 @@
+# euskaraldia-txapa-birtuala
