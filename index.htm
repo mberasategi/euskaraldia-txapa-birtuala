@@ -3,17 +3,23 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="generator" content="Zettlr">
   <meta name="date" content="">
-  <title></title>
+  <title>Jantzi Euskaraldiko txapa birtuala zure bideodeietan - Deustuko Unibertsitatean</title>
   <style type="text/css">
 @font-face{ 
-    font-family: "Karla";  
-    src: url(fonts/Karla-Regular.ttf);
-    font-weight: normal;
+    font-family: "Open Sans";  
+    src: url(fonts/OpenSans-Light.ttf);
+    font-weight: 300;
     font-style: normal;
 } 
 @font-face{ 
-    font-family: "Playfair Display";  
-    src: url(fonts/PlayfairDisplay-SemiBold.ttf);
+    font-family: "Open Sans";  
+    src: url(fonts/OpenSans-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+} 
+@font-face{ 
+    font-family: "Roboto";  
+    src: url(fonts/Roboto-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 } 
@@ -22,7 +28,7 @@
   }
 
   a {
-    color: #FF7C3B;
+    color: #e40e7e;
     text-decoration: none;
   }
 
@@ -44,8 +50,9 @@
   body {
     background-color: white;
     color: #333;
-    font-family: 'Karla', sans-serif;
-    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:11px;
+    font-weight: 300;
   }
 
   article {
@@ -71,8 +78,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-    color: #FF7C3B;
+    font-family: 'Roboto', sans-serif;
+    color: #e40e7e;
   }
 
   img {
@@ -146,14 +153,38 @@
   .sourceCode .in { color: #586e75; } /* Information */
   .sourceCode .wa { color: #cb4b16; } /* Warning */
   video { display: block; width:350px; }
+  .right { width:40%; float:right; margin-left: 2em; }
+  .left { width:40%; float:left; }
   </style>
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.miren.bz"]);
+  _paq.push(["setDomains", ["*.miren.bz","*.git.miren.bz","*.lab.miren.bz"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.miren.be/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 
 </head>
 <body>
   <!-- Render in article for reader view enabling -->
     <article>
+      <img style="margin-top:25px;" src="https://ci3.googleusercontent.com/proxy/Gastle10kJ3thfMV_WDA2tVTV5GYvxL8hCjGDCTXNy30vxn1G0Z4CanBV_jGZ5s8QGJm4-YSMj2AIh_NChd1jEW9CtoEMux9QUd_oMGwZLe2QhGBQAYVEbJgEc1Ugq4IxUX0I937XTLHFUKF-EnbhsmJFmhmng=s0-d-e1-ft#https://mcusercontent.com/0efc4f94cff0ccc70dabe40a8/images/9993ed2e-33d2-4f2c-8898-e43164963daf.png" />
     <!-- Indentation must be zero for, e.g., PREs to work correctly -->
-<h1 id="jantzi-euskaraldiko-txapa-birtuala-zure-bideodeietarako">Jantzi Euskaraldiko txapa birtuala zure bideodeietarako</h1>
+<h1 id="jantzi-euskaraldiko-txapa-birtuala-zure-bideodeietarako" style="font-size:2.5em;line-height: .9em;">Jantzi Euskaraldiko txapa birtuala zure bideodeietarako</h1>
 <p>Egunaren tarte handi bat bideodeietan ematen dugu: lanean, eskolan, 
 lagunartean… Horietan ere txapa jantzita agertu nahi baduzu, jarraian 
 azalduko dizugu Windows sistema eragilea darabilten ordenagailu batekin 
@@ -164,31 +195,58 @@ nola egin.</p>
 <li>Erabili nahi duzun txapa birtuala: <a href="media/ahobizi.png">Ahobizi</a>, <a href="media/belarriprest.png">Belarriprest</a>, edo <a href="media/euskaraldia.png">Euskaraldiko barra, txaparik gabe</a> (gorde zure ordenagailuan)</li>
 </ul>
 <p>Nola egin:</p>
+
+ <video controls="controls" src="media/webcam-gehitu.mp4" class="right">
+    Your browser does not support the HTML5 Video element.
+</video>
+
 <ol type="1">
 <li>OBS Studion iturburu bat gehitu zure web-kameraren irudia jasotzeko:
 <ul>
 <li>Iturburuen panelean <code>+</code> botoiari klik egin eta aukeratu “Bideoa kapturatzeko gailua”</li>
 <li>Agertzen diren aukerak bere horretan utzi eta klik egin “Ados” botoiean</li>
 <li>“Gailua” menu zabalgarrian zure web-kameraren irudia agertzen duena aukeratu, eta “Ados” botoiean klik egin</li>
-<li>Lerro gorria arrastratu irudiak pantailaren tarte osoa har dezan <video controls="controls" src="media/webcam-gehitu.mp4">
-    Your browser does not support the HTML5 Video element.
-</video></li>
+<li>Lerro gorria arrastratu irudiak pantailaren tarte osoa har dezan</li>
 </ul></li>
+</ol>
+
+
+<div style="clear:both;"></div>
+
+ <video controls="controls" src="media/irudia-gehitu.mp4" class="right">
+    Your browser does not support the HTML5 Video element.
+</video> 
+<ol start="2">
+
 <li>Bigarren iturburu bat gehitu, nahi duzun txapa birtuala gainetik jartzeko:
 <ul>
 <li>Iturburuen panelean <code>+</code> botoiari klik egin eta aukeratu “Irudia”</li>
 <li>“Sortu berria” aukeran ezarri izen esanguratsu bat, “Ahobizi” edo “Belarriprest” adibidez, eta klik egin “Ados” botoiean</li>
 <li>“Arakatu” botoia sakatu eta hautatu irudia (deskargatzean non gorde duzun, hor aurkituko duzu), eta klik egin “Ados” botoiean</li>
-<li>Lerro gorria arrastratu irudiak pantailaren tarte osoa har dezan, eta zentratuta kokatu behar bada <video controls="controls" src="media/irudia-gehitu.mp4">
-    Your browser does not support the HTML5 Video element.
-</video></li>
+<li>Lerro gorria arrastratu irudiak pantailaren tarte osoa har dezan, eta zentratuta kokatu behar bada</li>
 </ul></li>
-<li>Kamera birtuala gaitu, eskubialdeko “Start Virual Camera” botoia sakatuz <video controls="controls" src="media/kamera-birtuala-hasi.mp4">
-    Your browser does not support the HTML5 Video element.
-</video></li>
-<li>Erabiltzen duzun bideodeietako aplikazioan, “OBS Virtual Camera” aukeratu web-kamera gisa. Adibidez, Google Meet-en: <video controls="controls" src="media/google-meet.mp4">
+
+</ol>
+
+<div style="clear:both;"></div>
+
+<video controls="controls" src="media/kamera-birtuala-hasi.mp4" class="right">
     Your browser does not support the HTML5 Video element.
 </video>
+
+<ol start="3">
+<li>Kamera birtuala gaitu, eskubialdeko “Start Virual Camera” botoia sakatuz </li>
+</ol>
+
+
+<div style="clear:both;"></div>
+
+<video controls="controls" src="media/google-meet.mp4" class="right">
+    Your browser does not support the HTML5 Video element.
+</video>
+
+<ol start="4">
+<li>Erabiltzen duzun bideodeietako aplikazioan, “OBS Virtual Camera” aukeratu web-kamera gisa. Adibidez, Google Meet-en: 
 <ul>
 <li>Gerta daiteke OBS-k sortutako kamera birtuala ez egotea eskuragarri 
 lehenengo pantailan: “Huts egin du kamarak”, edo “Kamara ez dago 
@@ -198,8 +256,8 @@ Meet-en “Ezarpenak” leihora jo (behean eskubitara dauden hiru puntutxoen
 atalean, OBS Virtual Camera aukeratu, eta baimendu.</li>
 </ul></li>
 </ol>
-<p>Ohar batzuk:</p>
-<ul>
+<p style="clear:both; margin-top:3em;font-size:.9em;border-top: solid 1px #e8e9e7;padding-top:2em;">Ohar batzuk:</p>
+<ul style="font-size:.9em;">
 <li>Beharrezkoa da OBS abiaraztea zure bideo deietarako aplikazioa baino
  lehen. Hala egiten ez baduzu, baliteke OBS-k zure web-kamerako irudirik
  ez jasotzea eta dena beltzez agertzea. Gertatuko balitzaizu, itxi bideo
@@ -209,6 +267,9 @@ nabigatzailea edo bideo deietarako aplikazioa ondoren.</li>
 <li>Mac sistema eragilearekin aritzeko, OBSrako gehigarri bat deskargatu eta instalatu behar da (<a href="https://github.com/johnboiles/obs-mac-virtualcam/releases/download/v1.2.0/obs-mac-virtualcam-3ca8f62-v1.2.0.pkg">fitxategia</a>). Kamera birtuala abiarazteko aukera “Tresnak”/“Herramientas”/“Tools” menuan agertuko da.</li>
 <li>Linux sistema eragilearekin aritzeko, OBSrako gehigarri bat deskargatu eta instalatu behar da (<a href="https://github.com/CatxFish/obs-v4l2sink">hemendik</a>). Aukera honek zure sistemaren eta Linuxen ezarpenen ezagutza pixka bat gehiago eskatzen du. <!--- Skype from the Windows Store doesn't work with the OBS-Camera, please use Skype Desktop Edition instead.--></li>
 </ul>
+
+<h2 style="text-align: center;border-bottom: solid 25px #e8e9e7;padding-bottom:1em;padding-top:1em;margin-bottom:0;font-style:italic;text-transform: uppercase">Gehiago, gehiagorekin, gehiagotan, <span style="display:block;font-size:2em;line-height:1.2em;">online ere bai!</span></h2>
+
   </article>
 
 </body></html>
